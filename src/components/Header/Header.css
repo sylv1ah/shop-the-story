@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    height: 100px;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.headerItem {
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
