@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: flex-end;
     position: absolute;
+    position: fixed;
     height: 100px;
     width: 100vw;
     align-content: center;

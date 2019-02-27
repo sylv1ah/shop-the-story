@@ -11,6 +11,7 @@ class App extends Component {
         <Header/>
         <Footer/>
         <LargeLogo/>
+        <LargeLogo/>
         
       </div>
     );
