@@ -1,0 +1,32 @@
+.productsContainer {
+    width: 100vw;
+    padding-bottom:100px;
+}
+
+.products , .products2{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.group4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.productsContainer img{
+    width: 100%;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,12 @@
+.moviePageContainer {
+    height: 100vh;
+}
+
+.movieTitle {
+    height: 50px;
+    vertical-align: middle;
+}
+
+img {
+    width: 100vw;
+}

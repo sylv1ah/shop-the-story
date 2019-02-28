@@ -1,7 +1,6 @@
 .smallLogo {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    bottom: 0;
 }
