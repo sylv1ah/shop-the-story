@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import LargeLogo from './components/LargeLogo/LargeLogo';
 import Footer from './components/Footer/Footer';
+import PosterPage from './containers/PosterPage/PosterPage';
 
 class App extends Component {
   render() {
@@ -11,8 +12,7 @@ class App extends Component {
         <Header/>
         <Footer/>
         <LargeLogo/>
-        <LargeLogo/>
-        
+        <PosterPage/>
       </div>
     );
   }
