@@ -6,6 +6,8 @@ import prod2 from '../../assets/images/prod2.png';
 import prod3 from '../../assets/images/prod3.png';
 import prod4 from '../../assets/images/prod4.png';
 import prod5 from '../../assets/images/prod5.png';
+import Footer from '../../components/Footer/Footer';
+import SmallLogo from '../../components/SmallLogo/SmallLogo';
 
 const ProductsPage = () => (
     <div className="productsContainer">
@@ -32,6 +34,8 @@ const ProductsPage = () => (
             
             
         </div>
+        <SmallLogo/>
+        <Footer/>
     </div>
 );
 

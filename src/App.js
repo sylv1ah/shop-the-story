@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header/Header';
-import LargeLogo from './components/LargeLogo/LargeLogo';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import HomePage from './containers/HomePage/HomePage';
 import PosterPage from './containers/PosterPage/PosterPage';
 import MoviePage from './containers/MoviePage/MoviePage';
 import ProductsPage from './containers/ProductsPage/ProductsPage';
@@ -10,14 +8,15 @@ import ProductsPage from './containers/ProductsPage/ProductsPage';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-        <Footer/>
-        <LargeLogo/>
-        <PosterPage/>
-        <MoviePage/>
-        <ProductsPage/>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" component={HomePage} exact/>
+          <Route path="/posterpage" component={PosterPage}/>
+          <Route path="/moviepage" component={MoviePage}/>
+          <Route path="/productspage" component={ProductsPage}/>
+        </Switch>
+      </BrowserRouter>
+      
     );
   }
 }
