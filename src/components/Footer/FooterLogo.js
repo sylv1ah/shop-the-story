@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 
 const FooterLogo = () => (
     <div className="footer">
-        <div className="bottomlogo">
-        <Link to="/"><img src={bottomlogo} alt='shop-the-story' style={{width: '20%'}}/></Link>
-        </div>
+        
         <div className="text">
             <p>Sign up for updates and recieve 10% off online! Enter your email to get updates straight in your inbox</p>
         </div>
@@ -20,6 +18,9 @@ const FooterLogo = () => (
                 <div><button>Subscribe</button></div>
             
             </div>
+        </div>
+        <div className="bottomlogo">
+        <Link to="/"><img src={bottomlogo} alt='shop-the-story' style={{width: '20%'}}/></Link>
         </div>
     </div>
 );

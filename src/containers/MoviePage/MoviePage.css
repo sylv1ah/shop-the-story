@@ -1,11 +1,13 @@
 .moviePageContainer {
-    height: 120vh;
+    padding-bottom: 25vh;
     text-align: center;
 }
 
 .movieTitle {
-    height: 50px;
+    height: auto;
     vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 img {

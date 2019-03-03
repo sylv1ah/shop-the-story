@@ -11,7 +11,9 @@ const MovingScript = () => (
             <i className="names">Muk Ya</i>
             <i> this will look better with my purple bed sheets anyway. </i>
             <i className="names">Felix</i>
-            <i> not my problem that you are not intellectual enough to understand my narrative…  Cemine My followers will love this week’s flower arrangement</i>
+            <i> not my problem that you are not intellectual enough to understand my narrative…  </i>
+            <i className="names">Cemine </i>
+            <i>My followers will love this week’s flower arrangement </i>
         </div>
         {/* <p className="moving script2">
         <i></i>
