@@ -13,12 +13,13 @@
     width: 400px;
     height: 600px;
     background: url("../../assets/images/crinkledPoster.png") no-repeat 60%;
-    padding: 40px;
-    padding-right: 100px;
+    padding: 50px;
+    padding-right: 250px;
     margin: 60px;
     display: inline-block;
 }
 .poster:hover {
     background: url("../../assets/images/flatPoster.png") no-repeat 60%;
+
 }
 
