@@ -15,6 +15,7 @@
     border-top: solid 2px;
     border-bottom: solid 1px;
     background-color: white;
+    z-index: 10;
 }
 
 .form {
@@ -23,6 +24,7 @@
     justify-content: space-evenly;  
     font-family: monospace;
     width: 100vw;
+    z-index: 10;
 }
 
 button {
@@ -34,6 +36,7 @@ button {
     font-size: 15px;
     border-style: none;
     cursor: pointer;
+    z-index: 10;
 
 }
 
@@ -45,8 +48,21 @@ input {
     border: solid 1px;
     padding-left: 10px;
     overflow: hidden;
+    z-index: 10;
 }
 
 .firstName {
     padding-left: 50px;
+    z-index: 10;
+}
+
+.bottomlogo {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    background-color: white;
+    z-index: 1;
 }

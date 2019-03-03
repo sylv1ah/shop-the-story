@@ -1,10 +1,13 @@
 import React from 'react';
+import bottomlogo from '../../assets/images/bottomlogo.gif';
 import './Footer.css';
-import smalllogo from '../../assets/images/bottomlogo.gif';
+import { Link } from 'react-router-dom';
 
-const Footer2 = () => (
+const FooterLogo = () => (
     <div className="footer">
-        <div className="smallbottomlogo"><img src={smalllogo} alt='shop-the-story'/></div>
+        <div className="bottomlogo">
+        <Link to="/"><img src={bottomlogo} alt='shop-the-story' style={{width: '20%'}}/></Link>
+        </div>
         <div className="text">
             <p>Sign up for updates and recieve 10% off online! Enter your email to get updates straight in your inbox</p>
         </div>
@@ -21,4 +24,4 @@ const Footer2 = () => (
     </div>
 );
 
-export default Footer2;
+export default FooterLogo;
