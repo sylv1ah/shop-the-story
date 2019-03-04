@@ -162,3 +162,34 @@ a:hover {
     from {margin-left: -100%;opacity: 1;}
     to {margin-left: 0%;opacity: 1;}
 }
+
+.iframecontainer {
+    overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.iframecontainer iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.iframecontainer3 {
+    overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+}
+.iframecontainer3 iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

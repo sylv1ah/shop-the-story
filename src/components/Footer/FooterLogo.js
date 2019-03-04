@@ -20,7 +20,7 @@ const FooterLogo = () => (
             </div>
         </div>
         <div className="bottomlogo">
-        <Link to="/"><img src={bottomlogo} alt='shop-the-story' style={{width: '20%'}}/></Link>
+        <Link to="/"><img src={bottomlogo} alt='shop-the-story' style={{width: '300px'}}/></Link>
         </div>
     </div>
 );

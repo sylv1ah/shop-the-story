@@ -9,10 +9,12 @@
     align-items: center;
     font-family: monospace;
     font-size: 20px;
+
+    z-index: 10;
 }
 
 .headerItem {
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 30px;
     cursor: pointer;
 }

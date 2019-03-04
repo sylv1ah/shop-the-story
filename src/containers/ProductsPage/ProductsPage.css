@@ -4,7 +4,7 @@
     
 }
 
-.products , .products2{
+/* .products , .products2{
     width:100%;
     display: flex;
     justify-content: space-evenly;
@@ -25,9 +25,11 @@
 
 .productsContainer img{
     width: 100%;
-}
+} */
 
 .products img {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 1;
 }

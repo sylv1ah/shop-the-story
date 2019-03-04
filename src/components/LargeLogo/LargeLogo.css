@@ -12,3 +12,17 @@
     text-align: center;
     text-decoration: none;
 }
+
+.gif {
+    position: absolute;
+}
+
+.gif1 {
+    top: 200px;
+    left: 300px;
+}
+
+.gif2 {
+    bottom: 150px;
+    right: 300px;
+}

@@ -11,54 +11,19 @@ import flower4 from '../../assets/images/flower4.png';
 import flower5 from '../../assets/images/flower5.png';
 
 class MoviePage extends Component {
-
-    constructor(props, context) {
-        super(props, context);
-    
-        this.handleSelect = this.handleSelect.bind(this);
-    
-        this.state = {
-          index: 0,
-          direction: null,
-        };
-      }
-    
-      handleSelect(selectedIndex, e) {
-        this.setState({
-          index: selectedIndex,
-          direction: e.direction,
-        });
-      }
     
       render() {
-        const { index, direction } = this.state;
     
         return (
             <div className="moviePageContainer">
-            <img src={movietitle} className="movieTitle" alt='flower-arrangement-class'/>
-          {/* <Carousel
-            activeIndex={index}
-            direction={direction}
-            onSelect={this.handleSelect}
-          >
-            <Carousel.Item>
-                    <img src={flower1} alt="flower1"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={flower2} alt="flower2"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={flower3} alt="flower3"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={flower4} alt="flower4"/>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={flower5} alt="flower5"/>
-                </Carousel.Item>
-          </Carousel> */}
-          <FooterLogo/>
-        </div>
+                <img src={movietitle} className="movieTitle" alt='flower-arrangement-class'/>
+                <Link to="productspage"><img src={flower1} className="flower" alt='flower1'/></Link>
+                <Link to="productspage"><img src={flower2} className="flower" alt='flower2'/></Link>
+                <Link to="productspage"><img src={flower3} className="flower" alt='flower3'/></Link>
+                <Link to="productspage"><img src={flower4} className="flower" alt='flower4'/></Link>
+                <Link to="productspage"><img src={flower5} className="flower" alt='flower5'/></Link>
+                <FooterLogo/>
+            </div>
         );
       }
     }

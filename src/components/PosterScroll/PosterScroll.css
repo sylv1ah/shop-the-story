@@ -9,17 +9,42 @@
     word-wrap:normal;
     position: relative;
 }
-.poster {
-    width: 400px;
-    height: 600px;
-    background: url("../../assets/images/crinkledPoster.png") no-repeat 60%;
-    padding: 50px;
-    padding-right: 250px;
-    margin: 60px;
+.poster1 {
+    width: 500px;
+    height: 800px;
+    background: url("../../assets/images/poster1a.png") no-repeat 70%;
+    margin-right: 300px;
+    margin-left: 600px;
     display: inline-block;
 }
-.poster:hover {
-    background: url("../../assets/images/flatPoster.png") no-repeat 60%;
+.poster1:hover {
+    background: url("../../assets/images/poster1b.png") no-repeat 70%;
 
 }
+
+.poster2 {
+    width: 500px;
+    height: 800px;
+    background: url("../../assets/images/poster2a.png") no-repeat 70%;
+    
+    display: inline-block;
+}
+.poster2:hover {
+    background: url("../../assets/images/poster2b.png") no-repeat 70%;
+
+}
+
+.poster3 {
+    width: 500px;
+    height: 800px;
+    background: url("../../assets/images/poster3a.png") no-repeat 70%;
+    margin-right: 600px;
+    margin-left: 300px;
+    display: inline-block;
+}
+.poster3:hover {
+    background: url("../../assets/images/poster3b.png") no-repeat 70%;
+
+}
+
 
