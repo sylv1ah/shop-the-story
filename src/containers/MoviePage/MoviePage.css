@@ -1,5 +1,4 @@
 .moviePageContainer {
-    padding-bottom: 25vh;
     text-align: center;
 }
 
@@ -18,152 +17,8 @@ html,body{
     margin: 0;
 }
 
-.galleryContainer{
-    max-width: 1000px;
-    overflow: hidden;
-    user-select: none;
-    box-sizing: border-box;
-}
 
-.galleryContainer .slideShowContainer {
-  width:100%;
-  height:100%;
-  overflow: hidden;
-  position: relative;
-  
-}
-
-.galleryContainer .slideShowContainer .imageHolder{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  opacity: 0;
-}
-.galleryContainer .slideShowContainer .imageHolder img{
-    max-width: 100%;
-    height: auto;
-    width:100vw;
-}
-
-.nextPrevBtn {
-  font-size: 30px;
-  color: grey;
-  cursor: pointer;
-  position: absolute;
-  width: auto;
-  padding: 10px;
-  transition: 0.6s ease;
-  z-index: 5;
-}
-
-.rightArrow {
-  right:0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  font-size:90px;
-}
-
-.leftArrow {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  font-size:90px;
-}
-
-.nextPrevBtn:hover {
-  color: white;
-}
-
-#playPause a{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  top:20px;
-  position: absolute;
-  display: inline-block;
-  z-index: 5;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  cursor: pointer;
-  color: grey;
-  transition: 0.6s ease;
-}
-
-#play {
-  opacity: 0;
-}
-
-a:hover {
-  color: white;
-}
-
-.galleryContainer .moveLeftCurrentSlide{
-    animation-name: moveLeftCurrent;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-
-}
-.galleryContainer .moveLeftNextSlide{
-    animation-name: moveLeftNext;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-@keyframes moveLeftCurrent {
-    from {margin-left: 0;opacity: 1;}
-    to {margin-left: -100%;opacity: 1;}
-}
-@keyframes moveLeftNext {
-    from {margin-left: 100%;opacity: 1;}
-    to {margin-left: 0%;opacity: 1;}
-}
-
-.galleryContainer .moveRightCurrentSlide{
-    animation-name: moveRightCurrent;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-.galleryContainer .moveRightPrevSlide{
-    animation-name: moveRightPrev;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-@keyframes moveRightCurrent {
-    from {margin-left: 0;opacity: 1;}
-    to {margin-left: 100%;opacity: 1;}
-}
-@keyframes moveRightPrev {
-    from {margin-left: -100%;opacity: 1;}
-    to {margin-left: 0%;opacity: 1;}
-}
-.galleryContainer .moveRightCurrentSlide{
-    animation-name: moveRightCurrent;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-.galleryContainer .moveRightPrevSlide{
-    animation-name: moveRightPrev;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-fill-mode:forwards;
-}
-@keyframes moveRightCurrent {
-    from {margin-left: 0;opacity: 1;}
-    to {margin-left: 100%;opacity: 1;}
-}
-@keyframes moveRightPrev {
-    from {margin-left: -100%;opacity: 1;}
-    to {margin-left: 0%;opacity: 1;}
-}
-
-.iframecontainer {
+/* .iframecontainer {
     overflow: hidden;
   padding-top: 56.25%;
   position: relative;
@@ -184,6 +39,7 @@ a:hover {
   padding-top: 56.25%;
   position: relative;
   width: 100%;
+  justify-content: center;
 }
 .iframecontainer3 iframe {
     border: 0;
@@ -191,5 +47,9 @@ a:hover {
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 80%;
+} */
+
+.flower {
+    width: 60%;
 }
